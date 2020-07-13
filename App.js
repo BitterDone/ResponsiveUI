@@ -24,7 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => (
+// const App: () => React$Node = () => ( // Type annotations can only be used in TypeScript files.
+const App = () => (
   <>
     <StatusBar barStyle="dark-content" />
     <SafeAreaView>
