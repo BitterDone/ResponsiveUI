@@ -65,7 +65,7 @@ const buildColumn = (width, backgroundColor) => (
   </View>
 );
 
-// const App: () => React$Node = () => ( // complains about types in typescript
+// const App: () => React$Node = () => ( // Type annotations can only be used in TypeScript files.
 const App = () => (
   <>
     <StatusBar barStyle="dark-content" />
